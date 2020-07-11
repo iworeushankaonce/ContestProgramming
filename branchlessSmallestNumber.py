@@ -4,6 +4,15 @@
 
 
 def smallest(x,y,z):
+  # not(y//x) is the same as y<x
+  
+  # conditional 'if' is replaced with 
+  # multiplication, so:
+  # in case the expression 
+  # (((not(y//x)) and (not(y//z))) is false
+  # it will be 0 and multiplyting 0*y will 
+  # be zero
+  
   return (((not(y//x)) and (not(y//z))) * y + 
          ((not(x//y)) and (not(x//z))) * x +
          ((not(z//y)) and (not(z//x)) * z))
