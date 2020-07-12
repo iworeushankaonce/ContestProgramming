@@ -1,6 +1,6 @@
 # Find the smallest number among 3 numbers
-# without conditional statements and
-# greater than, less than operators
+# without conditional statements (if) and
+# comparison (greater than, less than) operators
 
 
 def smallest(x,y,z):
